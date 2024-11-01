@@ -1,0 +1,28 @@
+.root {
+  position: relative;
+  padding: 40px;
+  height: calc(100vh - 80px);
+  background-color: #f2f2f2;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.wrapper {
+  padding-bottom: 0;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.select {
+  z-index: 20;
+}
